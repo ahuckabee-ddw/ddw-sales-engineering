@@ -1,0 +1,58 @@
+####provided by lydia 10/7/22
+
+dwec:SubCollection
+   a rdfs:Class ;
+   rdfs:subClassOf dwec:Catalog;
+   rdfs:label "Special Collection" ;
+   label:plural "Special Collections" ;
+.
+
+dwec:Sub-Catalog-Demo
+  a               :SubCollection ;
+  dwec:subCatalogOf :Catalog-Demo ;
+  dct:identifier  "Demo Sub Catalog" ;
+  dct:title       "Demo Sub Catalog" ;
+  dct:description "A demo showcasing sub-catalogs" ;
+  dct:issued      "2020-02-17T21:41:17.675Z"^^xsd:dateTime ;
+  dct:modified    "2020-02-17T21:41:17.675Z"^^xsd:dateTime ;
+.
+
+dwec:CollectionToSubCollection
+  rdf:type                    dwec:RelationshipPresentation ;
+  dwec:inRelationshipSection  :RelationshipSection ;
+  dwec:forType                dwec:Catalog ;
+  dwec:forTargetType          :SubCollection ;
+  dwec:forRelationshipType    [ dwec:inversePath dwec:subCatalogOf ] ;
+  dwec:relationshipTerm       [
+    rdf:type      dwec:RelationshipTerm ;
+    rdfs:label    "in" ;
+    label:plural  "in" ;
+  ] ;
+  dwec:resourceTerm [
+      rdf:type      dwec:ResourceTerm ;
+      rdfs:label    "Special Collection" ;
+      label:plural  "Special Collections" ;
+  ] ;
+.
+
+dwec:SubCollectionToCollection
+  rdf:type                    dwec:RelationshipPresentation ;
+  dwec:inRelationshipSection  :RelationshipSection ;
+  dwec:forType                :SubCollection ;
+  dwec:forTargetType          dwec:Catalog ;
+  dwec:forRelationshipType    dwec:subCatalogOf ;
+  dwec:relationshipTerm       [
+    rdf:type      dwec:RelationshipTerm ;
+    rdfs:label    "is a parent of" ;
+    label:plural  "are parents of" ;
+  ] ;
+  dwec:resourceTerm [
+      rdf:type      dwec:ResourceTerm ;
+      rdfs:label    "Collection" ;
+      label:plural  "Collections" ;
+  ] ;
+.
+
+
+
+
