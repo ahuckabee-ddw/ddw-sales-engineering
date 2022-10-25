@@ -1,0 +1,146 @@
+@prefix : <https://alexhdev.linked.data.world/d/glossary-ifinancial/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ddw: <https://alexhdev.linked.data.world/d/ddw-catalogs/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dwec: <https://dwec.data.world/v0/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+ddw:cat.b49989e41d75de055846c99a43411f48
+        dcat:record  ddw:Record_672f7dd2b462566e105754ab03c93f9446421a0c .
+
+ddw:Record_672f7dd2b462566e105754ab03c93f9446421a0c
+        rdf:type           dcat:CatalogRecord ;
+        foaf:primaryTopic  ddw:Term.average-page-load-time ;
+        dct:issued         "2022-10-24T18:26:30.535+00:00"^^xsd:dateTime ;
+        dct:modified       "2022-10-24T18:26:30.535+00:00"^^xsd:dateTime .
+
+ddw:Term.average-page-load-time
+        rdf:type         dwec:BusinessTerm ;
+        dct:identifier   "average-page-load-time" ;
+        dct:title        "Average Page Load Time" ;
+        dct:description  "The average amount of time, in seconds, it takes for your complete page to load in your website visitor’s browser.  This is important to your store because reducing the average page load time by 1.6 seconds would increase annual revenue growth by 10 percent." .
+
+ddw:cat.b49989e41d75de055846c99a43411f48
+        dcat:record  ddw:Record_5b1ea4679ebbd2b27dd609c47a840ac269876b0b .
+
+ddw:Record_5b1ea4679ebbd2b27dd609c47a840ac269876b0b
+        rdf:type           dcat:CatalogRecord ;
+        foaf:primaryTopic  ddw:Term.average-server-response-time ;
+        dct:issued         "2022-10-24T18:26:30.535+00:00"^^xsd:dateTime ;
+        dct:modified       "2022-10-24T18:26:30.535+00:00"^^xsd:dateTime .
+
+ddw:Term.average-server-response-time
+        rdf:type         dwec:BusinessTerm ;
+        dct:identifier   "average-server-response-time" ;
+        dct:title        "Average Server Response Time" ;
+        dct:description  "The average amount of time, in seconds, it takes for your server to respond. Can be overlooked in favor of optimizing the page. However, if the server response is slow, a well optimized page will still load slow. Google recommends a server response of under 200ms." .
+
+ddw:cat.b49989e41d75de055846c99a43411f48
+        dcat:record  ddw:Record_2e5b465e0b7ff03366a7cfd00a71311ebfac2d71 .
+
+ddw:Record_2e5b465e0b7ff03366a7cfd00a71311ebfac2d71
+        rdf:type           dcat:CatalogRecord ;
+        foaf:primaryTopic  ddw:Term.pages-per-session ;
+        dct:issued         "2022-10-24T18:26:30.535+00:00"^^xsd:dateTime ;
+        dct:modified       "2022-10-24T18:26:30.535+00:00"^^xsd:dateTime .
+
+ddw:Term.pages-per-session
+        rdf:type         dwec:BusinessTerm ;
+        dct:identifier   "pages-per-session" ;
+        dct:title        "Pages per Session" ;
+        dct:description  "The average number of pages visited per session for each specific website visitor. This metric is significant because if visitors are leaving your website before visiting other pages, that works against your conversion goals. On the other end of the spectrum, if visitors are viewing loads of pages but not converting, that may mean your messaging is not clear enough for visitors to trust and buy." .
+
+ddw:cat.b49989e41d75de055846c99a43411f48
+        dcat:record  ddw:Record_7dfc5ca68bb1954432abf2dceca7ce0622933131 .
+
+ddw:Record_7dfc5ca68bb1954432abf2dceca7ce0622933131
+        rdf:type           dcat:CatalogRecord ;
+        foaf:primaryTopic  ddw:Term.session-duration ;
+        dct:issued         "2022-10-24T18:26:30.535+00:00"^^xsd:dateTime ;
+        dct:modified       "2022-10-24T18:26:30.535+00:00"^^xsd:dateTime .
+
+ddw:Term.session-duration
+        rdf:type         dwec:BusinessTerm ;
+        dct:identifier   "session-duration" ;
+        dct:title        "Session Duration" ;
+        dct:description  "The average amount of time each website visitor session lasts. The longer your visitors spend on your website, and in your store, the better. Unless we’re talking about your checkout pages, where too much time being spent works against conversion." .
+
+ddw:cat.b49989e41d75de055846c99a43411f48
+        dcat:record  ddw:Record_ceb680143bcc136c2f50e9458ca8fdc0908e20b8 .
+
+ddw:Record_ceb680143bcc136c2f50e9458ca8fdc0908e20b8
+        rdf:type           dcat:CatalogRecord ;
+        foaf:primaryTopic  ddw:Term.bounce-rate ;
+        dct:issued         "2022-10-24T18:26:30.535+00:00"^^xsd:dateTime ;
+        dct:modified       "2022-10-24T18:26:30.535+00:00"^^xsd:dateTime .
+
+ddw:Term.bounce-rate  rdf:type  dwec:BusinessTerm ;
+        dct:identifier   "bounce-rate" ;
+        dct:title        "Bounce Rate" ;
+        dct:description  "The percentage of your website visitors who left without visiting a second page on your site. It’s significant, because if too many people are leaving your website without visiting additional pages, that will work against your store goals." .
+
+ddw:cat.b49989e41d75de055846c99a43411f48
+        dcat:record  ddw:Record_22d19fd5dd3b9038493a170bb0c368cd15ccd48b .
+
+ddw:Record_22d19fd5dd3b9038493a170bb0c368cd15ccd48b
+        rdf:type           dcat:CatalogRecord ;
+        foaf:primaryTopic  ddw:Term.gross-margin ;
+        dct:issued         "2022-10-24T18:26:30.535+00:00"^^xsd:dateTime ;
+        dct:modified       "2022-10-24T18:26:30.535+00:00"^^xsd:dateTime .
+
+ddw:Term.gross-margin
+        rdf:type         dwec:BusinessTerm ;
+        dct:identifier   "gross-margin" ;
+        dct:title        "Gross Margin" ;
+        dct:description  "Found by taking your store’s total sales revenue and subtracting the cost of goods sold. Then divide the product by revenue and multiply by 100 to get gross margin (expressed as a percentage). Significant in managing your store’s profitability, as the higher the percentage of gross margin, the more revenue that becomes profit for your store." .
+
+ddw:cat.b49989e41d75de055846c99a43411f48
+        dcat:record  ddw:Record_d2e6ca34cf324d826bc37a21bbf7762a87063404 .
+
+ddw:Record_d2e6ca34cf324d826bc37a21bbf7762a87063404
+        rdf:type           dcat:CatalogRecord ;
+        foaf:primaryTopic  ddw:Term.average-gross-margin-per-customer-lifespan ;
+        dct:issued         "2022-10-24T18:26:30.535+00:00"^^xsd:dateTime ;
+        dct:modified       "2022-10-24T18:26:30.535+00:00"^^xsd:dateTime .
+
+ddw:Term.average-gross-margin-per-customer-lifespan
+        rdf:type         dwec:BusinessTerm ;
+        dct:identifier   "average-gross-margin-per-customer-lifespan" ;
+        dct:title        "Average Gross Margin per Customer Lifespan" ;
+        dct:description  "Found by finding the percentage of profit margin per customer from the total revenue per customer lifetime.  Plays a role in complicated customer lifetime value formulas." .
+
+ddw:cat.b49989e41d75de055846c99a43411f48
+        dcat:record  ddw:Record_5b36527dc8ccca4aaef1a9e0cba87e4dce5a8e6d .
+
+ddw:Record_5b36527dc8ccca4aaef1a9e0cba87e4dce5a8e6d
+        rdf:type           dcat:CatalogRecord ;
+        foaf:primaryTopic  ddw:Term.average-order-value ;
+        dct:issued         "2022-10-24T18:26:30.535+00:00"^^xsd:dateTime ;
+        dct:modified       "2022-10-24T18:26:30.535+00:00"^^xsd:dateTime .
+
+ddw:Term.average-order-value
+        rdf:type         dwec:BusinessTerm ;
+        dct:identifier   "average-order-value" ;
+        dct:title        "Average Order Value" ;
+        dct:description  "The average value of your store’s orders is found by taking the total store sales and dividing it by the number of transactions. Significant to most store owners but keep in mind that the higher the average order value the lower your conversion rates, because pricey purchases take more clicks." .
+
+ddw:cat.b49989e41d75de055846c99a43411f48
+        dcat:record  ddw:Record_50e939a3ec9e2832277752ca1fe41918d45f446a .
+
+ddw:Record_50e939a3ec9e2832277752ca1fe41918d45f446a
+        rdf:type           dcat:CatalogRecord ;
+        foaf:primaryTopic  ddw:Term.average-cost-per-order ;
+        dct:issued         "2022-10-24T18:26:30.535+00:00"^^xsd:dateTime ;
+        dct:modified       "2022-10-24T18:26:30.535+00:00"^^xsd:dateTime .
+
+ddw:Term.average-cost-per-order
+        rdf:type         dwec:BusinessTerm ;
+        dct:identifier   "average-cost-per-order" ;
+        dct:title        "Average Cost per Order" ;
+        dct:description  "Gives the average advertising cost per order. Find it by dividing the total investment into marketing by the store’s total number of orders. Helpful in evaluating your advertising dollars against the number of online orders your advertising is driving in your store." .
