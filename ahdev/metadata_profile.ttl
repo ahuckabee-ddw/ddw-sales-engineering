@@ -265,19 +265,29 @@ alexhdevprofile:MetadataPresentation-TechnicalOwner
         dwec:forType                dwec-avro:AvroField ;
         dwec:inMetadataSection      alexhdevprofile:MetadataSectionPeople ;
         dwec:presentationSortOrder  3 ;
-        dwec:viaProperty            alexhdevprofile:technical_owner .
+        dwec:viaProperty            alexhdevprofile:technical_analyst .
 
-
-alexhdevprofile:MetadataPresentation-MigrationOwner
+alexhdevprofile:MetadataPresentation-MigrationTeamOwner
         rdf:type                    dwec:MetadataPresentation ;
         rdf:type                    dwec:Facetable;
-        rdfs:label                  "Migration Owner" ;
+        rdfs:label                  "Migration Team Owner" ;
         dwec:forType                dwec:Analysis ;
         dwec:forType                dwec:DatabaseColumn ;
         dwec:forType                dwec:DatabaseTable ;
         dwec:inMetadataSection      alexhdevprofile:MetadataSectionPeople ;
         dwec:presentationSortOrder  3 ;
         dwec:viaProperty            alexhdevprofile:migration_owner .
+
+alexhdevprofile:MetadataPresentation-MigrationAnalyst
+        rdf:type                    dwec:MetadataPresentation ;
+        rdf:type                    dwec:Facetable;
+        rdfs:label                  "Migration Analyst" ;
+        dwec:forType                dwec:Analysis ;
+        dwec:forType                dwec:DatabaseColumn ;
+        dwec:forType                dwec:DatabaseTable ;
+        dwec:inMetadataSection      alexhdevprofile:MetadataSectionPeople ;
+        dwec:presentationSortOrder  3 ;
+        dwec:viaProperty            alexhdevprofile:migration_analyst .
 
 
 alexhdevprofile:MetadataPresentation-TechnicalOwnerLink
