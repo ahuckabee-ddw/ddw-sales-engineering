@@ -169,6 +169,24 @@ dwec:SubCollectionToCollection
         ] .
 
 
+:DatabaseColumnToDatabaseColumn
+        rdf:type                    dwec:RelationshipPresentation ;
+        dwec:forRelationshipType    [ dwec:inversePath dwec:related ] ;
+        dwec:inRelationshipSection  :RelationshipSectionA ;
+        dwec:forTargetType          dwec:DatabaseColumn ;
+        dwec:forType                dwec:DatabaseColumn ;
+        dwec:presentationSortOrder  1 ;
+        dwec:relationshipTerm       [
+                rdf:type      dwec:RelationshipTerm ;
+                rdfs:label    "is migrated from" ;
+                label:plural  "are migrated from" ;
+        ] ;
+        dwec:resourceTerm  [
+                rdf:type      dwec:ResourceTerm ;
+                rdfs:label    "Column" ;
+                label:plural  "Columns" ;
+        ] .
+
 
 
 :RelationshipSection
